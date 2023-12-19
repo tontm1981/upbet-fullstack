@@ -38,7 +38,7 @@ Criar um registro com um subdomínio para a api e outro para o frontend.
 **Servidor**
 ```
 usuário: ubuntu
-ip: 54.94.51.52
+ip: 168.75.83.235
 senha: deploy@@up
 ```
 ​
