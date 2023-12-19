@@ -56,4 +56,6 @@ senha: devs@4774
 - Git: O candidato demonstra conhecimento no uso do Git?
 - Infraestrutura e Deploy: O candidato consegue configurar corretamente o DNS e efetuar o deploy da aplicação em um servidor?
 ---
+
+Citamos algumas tecnologias e linguagens de programação como referência, porém, não há obrigatoriedade no uso destas. Sinta-se à vontade para escolher as ferramentas que julgar mais produtivas para o seu trabalho.
 Boa sorte com o teste! Se houver alguma dúvida, sinta-se à vontade para entrar em contato no dev@upbet.com.
