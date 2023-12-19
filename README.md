@@ -1,5 +1,5 @@
 # Teste Full Stack
-Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedor Full Stack. O teste é dividido em várias partes, cada uma abordando aspectos específicos do desenvolvimento web.
+Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedor Full Stack. O teste é dividido em várias partes, cada uma abordando aspectos específicos do desenvolvimento web. O tema do projeto é de escolha livre, permitindo a implementação de qualquer tipo de sistema, contanto que todas as funcionalidades requisitadas sejam incorporadas.
 ## Parte 1: Front-end (Vue.js)
 - Vue.js:
   - Crie um aplicativo Vue.js com funcionalidades como requisições para uma API, gerenciamento de estado, rotas protegidas, autenticação, paginação e integração com WebSocket.
@@ -56,4 +56,4 @@ senha: devs@4774
 - Git: O candidato demonstra conhecimento no uso do Git?
 - Infraestrutura e Deploy: O candidato consegue configurar corretamente o DNS e efetuar o deploy da aplicação em um servidor?
 ---
-Boa sorte com o teste! Se houver alguma dúvida, sinta-se à vontade para entrar em contato.
+Boa sorte com o teste! Se houver alguma dúvida, sinta-se à vontade para entrar em contato no dev@upbet.com.
