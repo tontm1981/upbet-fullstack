@@ -34,7 +34,7 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
   - Prepare scripts ou instruções para facilitar o deploy da aplicação nos containers Docker no servidor.
 ## Deploy
 Criar um registro com um subdomínio para a api e outro para o frontend.
-​
+
 **Servidor**
 ```
 usuário: ubuntu
