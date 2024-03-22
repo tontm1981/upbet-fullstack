@@ -34,7 +34,7 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
   - Prepare scripts ou instruções para facilitar o deploy da aplicação nos containers Docker no servidor.
 ## Parte 6 (Opção 2): Infraestrutura e Deploy Cloud (AWS, Azure ou GCP)
 - Deploy nos Cloud Provideres:
-  - utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: ECS para Front End e Back End, Lambda para o Back End e ECS ou EKS para o Front End.
+  - utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: API gateway, EKS, ECS, Lambda, RDS entre outros serviços nas Clouds Provideres
   - Como um diferencial, considere a criação de um pipeline de integração contínua e entrega contínua (CI/CD) para a implantação nas plataformas de nuvem, utilizando ferramentas como GitHub Actions.
 ## Deploy
 Criar um registro com um subdomínio para a api e outro para o frontend.
