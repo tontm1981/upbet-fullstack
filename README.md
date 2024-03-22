@@ -1,4 +1,4 @@
-# Teste Full Stack
+# Teste Engenheiro de Software Sr. (Full Stack)
 Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedor Full Stack. O teste é dividido em várias partes, cada uma abordando aspectos específicos do desenvolvimento web. O tema do projeto é de escolha livre, permitindo a implementação de qualquer tipo de sistema, contanto que todas as funcionalidades requisitadas sejam incorporadas.
 ## Parte 1: Front-end (Vue.js)
 - Vue.js:
