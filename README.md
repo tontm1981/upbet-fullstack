@@ -6,16 +6,16 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
   - Utilize o vue-router para configuração de rotas protegidas.
   - Configure um gerenciamento de estado.
   - Faça a integração com websocket.
-## Parte 2: Back-end (Node.js ou Python com PostgreSQL e WebSocket)
+## Parte 2: Back-end (Node.js ou Python com banco de dados Relacional e WebSocket)
 - Node.js ou Python:
   - Configure um servidor que forneça uma API RESTful.
   - Utilize WebSocket para comunicação em tempo real com o frontend.
   - Faça a conexão com o banco de dados.
-  - Realize consultas ao PostgreSQL para suportar a paginação e outras operações necessárias.
+  - Realize consultas ao banco de dados Relacional para suportar a paginação e outras operações necessárias.
   - Utilize um ORM para interagir com o PostgreSQL.
 ## Parte 3: Banco de Dados
 - Banco de Dados:
-  - Monte um esquema de banco de dados PostgreSQL que suporte as operações necessárias para a aplicação.
+  - Monte um esquema de banco de dados Relacional(Mysql, Postegres etc...) que suporte as operações necessárias para a aplicação.
   - Configure as migrations caso o ORM escolhido forneça suporte.
   - Utilize índices e chaves estrangeiras conforme necessário.
 ## Parte 4: Docker
@@ -34,7 +34,7 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
   - Prepare scripts ou instruções para facilitar o deploy da aplicação nos containers Docker no servidor.
 ## Parte 6 (Opção 2): Infraestrutura e Deploy Cloud (AWS, Azure ou GCP)
 - Deploy nos Cloud Provideres:
-  - tilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: ECS para Front End e Back End, Lambda para o Back End e ECS ou EKS para o Front End.
+  - utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: ECS para Front End e Back End, Lambda para o Back End e ECS ou EKS para o Front End.
   - Como um diferencial, considere a criação de um pipeline de integração contínua e entrega contínua (CI/CD) para a implantação nas plataformas de nuvem, utilizando ferramentas como GitHub Actions.
 ## Deploy
 Criar um registro com um subdomínio para a api e outro para o frontend.
