@@ -35,7 +35,7 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
 ## Parte 6 (Opção 2): Infraestrutura e Deploy Cloud (AWS, Azure ou GCP)
 - Deploy nos Cloud Provideres:
   - utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: API gateway, EKS, ECS, Lambda, RDS entre outros serviços nas Clouds Provideres
-  - Como um diferencial, considere a criação de um pipeline de integração contínua e entrega contínua (CI/CD) para a implantação nas plataformas de nuvem, utilizando ferramentas como GitHub Actions.
+  - Como um diferencial, considere a criação de um pipeline de integração contínua e entrega contínua (CI/CD) para a implantação nas plataformas de nuvem, utilizando ferramentas como GitHub Actions ou similares
 ## Deploy
 Criar um registro com um subdomínio para a api e outro para o frontend.
 
