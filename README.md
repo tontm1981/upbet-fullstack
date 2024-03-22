@@ -27,11 +27,16 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
   - Inicialize um repositório Git para o projeto.
   - Faça commits regulares e inclua mensagens de commit descritivas.
   - Envie o código através do repositório Git.
-## Parte 6: Infraestrutura e Deploy
+## Parte 6 (Opção 1): Infraestrutura e Deploy
 - Infraestrutura:
   - Será fornecido acesso a uma conta no serviço de DNS para gerenciar um domínio e um servidor VPS.
   - Configure o DNS para apontar para um servidor onde a aplicação estará hospedada.
   - Prepare scripts ou instruções para facilitar o deploy da aplicação nos containers Docker no servidor.
+## Parte 6 (Opção 2): Infraestrutura e Deploy Cloud (AWS, Azure ou GCP)
+- Deploy nos Cloud Provideres:
+  - Use uma conta Cloud (AWS, Azure ou GCP) para fazer o deploy do Front End e Back-end
+  - Pode ser ultizado qualquer serviço de sua escolha ex: ECS para front e back, Lambda para o Back-end e ECS ou EKS para o Front end
+  - Diferencial é criar um esteira CI/CD para deploy nos Cloud Provideres ex: Git Hub actions
 ## Deploy
 Criar um registro com um subdomínio para a api e outro para o frontend.
 
@@ -55,6 +60,7 @@ senha: devs@4774
 - Docker e Orquestração: O Dockerfile e o Docker Compose estão configurados corretamente?
 - Git: O candidato demonstra conhecimento no uso do Git?
 - Infraestrutura e Deploy: O candidato consegue configurar corretamente o DNS e efetuar o deploy da aplicação em um servidor?
+- Usar a Parte 6 (Opção 2) como soluçao peso maior na avaliacao final
 ---
 
 Citamos algumas tecnologias e linguagens de programação como referência, porém, não há obrigatoriedade no uso destas. Sinta-se à vontade para escolher as ferramentas que julgar mais produtivas para o seu trabalho.
