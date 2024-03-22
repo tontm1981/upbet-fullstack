@@ -59,7 +59,7 @@ senha: devs@4774
 - Docker e Orquestração: O Dockerfile e o Docker Compose estão configurados corretamente?
 - Git: O candidato demonstra conhecimento no uso do Git?
 - Infraestrutura e Deploy: O candidato consegue configurar corretamente o DNS e efetuar o deploy da aplicação em um servidor?
-- Usar a Parte 6 (Opção 2) como soluçao peso maior na avaliacao final
+- Usar a Parte 6 (Opção 2) como soluçao tem um peso maior na avaliacao final.
 ---
 
 Citamos algumas tecnologias e linguagens de programação como referência, porém, não há obrigatoriedade no uso destas. Sinta-se à vontade para escolher as ferramentas que julgar mais produtivas para o seu trabalho.
