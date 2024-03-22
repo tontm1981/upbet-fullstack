@@ -36,6 +36,15 @@ Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedo
 - Deploy nos Cloud Provideres:
   - utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: API gateway, EKS, ECS, Lambda, RDS entre outros serviços nas Clouds Provideres
   - Como um diferencial, considere a criação de um pipeline de integração contínua e entrega contínua (CI/CD) para a implantação nas plataformas de nuvem, utilizando ferramentas como GitHub Actions ou similares
+
+## Parte 7: Desenho de Arquitetura de Sistema
+- Desenho de Arquitetura:
+Desenvolva um desenho de arquitetura do sistema que ilustre a interação entre os componentes front-end, back-end, banco de dados e infraestrutura. Este desenho deve incluir:
+  - Componentes do sistema e suas responsabilidades.
+  - Fluxos de dados entre os componentes.
+  - Infraestrutura e serviços utilizados (Docker, servidores, cloud services, etc.).
+  - Segurança e gerenciamento de acesso.
+  - Este desenho ajudará a entender melhor como as partes do sistema se integram e funcionam juntas.
 ## Deploy
 Criar um registro com um subdomínio para a api e outro para o frontend.
 
