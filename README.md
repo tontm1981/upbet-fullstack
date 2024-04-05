@@ -32,9 +32,6 @@ O objetivo principal é executar com sucesso a implementação full stack dentro
   - Descreva a infraestrutura e serviços utilizados.
   - Enfatize aspectos de segurança e gerenciamento de acesso.
 
-## Deploy
-- Configure registros com subdomínios distintos para a API e o front-end.
-
 ## Critérios de Avaliação
 
 Embora algumas tecnologias e linguagens de programação sejam mencionadas como referência, seu uso não é mandatório. Encorajamos a escolha de ferramentas que considere mais eficientes para o desenvolvimento do trabalho.
