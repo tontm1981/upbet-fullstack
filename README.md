@@ -33,7 +33,4 @@ O objetivo principal é executar com sucesso a implementação full stack dentro
   - Enfatize aspectos de segurança e gerenciamento de acesso.
 
 ## Critérios de Avaliação
-
-Embora algumas tecnologias e linguagens de programação sejam mencionadas como referência, seu uso não é mandatório. Encorajamos a escolha de ferramentas que considere mais eficientes para o desenvolvimento do trabalho.
-
-Desejamos sucesso no teste! Caso tenha dúvidas, por favor, entre em contato pelo e-mail dev@upbet.com.
+O codigo deve estar funcional na Nuvem e o desenho de arquitetura atualizado com a solucao
