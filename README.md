@@ -1,76 +1,42 @@
-# Teste Engenheiro de Software Sr. (Full Stack)
-Este projeto consiste em um teste para avaliar as habilidades de um desenvolvedor Full Stack. O teste é dividido em várias partes, cada uma abordando aspectos específicos do desenvolvimento web. O tema do projeto é de escolha livre, permitindo a implementação de qualquer tipo de sistema, contanto que todas as funcionalidades requisitadas sejam incorporadas.
+# Teste para Engenheiro de Software Sênior (Full Stack)
+
+Este projeto é parte de uma avaliação destinada a mensurar as competências de um desenvolvedor Full Stack. O teste é segmentado em diversas etapas, cada uma focada em diferentes aspectos do desenvolvimento web. Os candidatos têm a liberdade de escolher o tema do projeto, com a condição de que todas as funcionalidades exigidas sejam adequadamente implementadas.
+
+O objetivo principal é executar com sucesso a implementação full stack dentro de um ambiente AWS ECS ou EKS. O código fornecido contém erros intencionais que precisam ser identificados e corrigidos. O exercício visa avaliar a capacidade do candidato em ajustar um código quase finalizado, corrigir os erros existentes e realizar a implantação na nuvem.
+
 ## Parte 1: Front-end (Vue.js)
-- Vue.js:
-  - Crie um aplicativo Vue.js com funcionalidades como requisições para uma API, gerenciamento de estado, rotas protegidas, autenticação, paginação e integração com WebSocket.
-  - Utilize o vue-router para configuração de rotas protegidas.
-  - Configure um gerenciamento de estado.
-  - Faça a integração com websocket.
+- Implementação em Vue.js disponível na pasta `app`.
+
 ## Parte 2: Back-end (Node.js ou Python com banco de dados Relacional e WebSocket)
-- Node.js ou Python:
-  - Configure um servidor que forneça uma API RESTful.
-  - Utilize WebSocket para comunicação em tempo real com o frontend.
-  - Faça a conexão com o banco de dados.
-  - Realize consultas ao banco de dados Relacional para suportar a paginação e outras operações necessárias.
-  - Utilize um ORM para interagir com o PostgreSQL.
+- Implementação de rotas utilizando Nest.js.
+
 ## Parte 3: Banco de Dados
-- Banco de Dados:
-  - Monte um esquema de banco de dados Relacional(Mysql, Postegres etc...) que suporte as operações necessárias para a aplicação.
-  - Configure as migrations caso o ORM escolhido forneça suporte.
-  - Utilize índices e chaves estrangeiras conforme necessário.
+- Projeto de banco de dados disponível.
+
 ## Parte 4: Docker
-- Docker:
-  - Crie um Dockerfile para empacotar as aplicações em containers separados.
-  - Containers desejados: nginx e postgresql.
+- Cada projeto contém um Dockerfile e docker-compose.
+
 ## Parte 5: Git
-- Git:
-  - Inicialize um repositório Git para o projeto.
-  - Faça commits regulares e inclua mensagens de commit descritivas.
-  - Envie o código através do repositório Git.
-## Parte 6 (Opção 1): Infraestrutura e Deploy
-- Infraestrutura:
-  - Será fornecido acesso a uma conta no serviço de DNS para gerenciar um domínio e um servidor VPS.
-  - Configure o DNS para apontar para um servidor onde a aplicação estará hospedada.
-  - Prepare scripts ou instruções para facilitar o deploy da aplicação nos containers Docker no servidor.
-## Parte 6 (Opção 2): Infraestrutura e Deploy Cloud (AWS, Azure ou GCP)
-- Deploy nos Cloud Provideres:
-  - utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para realizar a implantação (deploy) das aplicações Front End e Back End. Você tem liberdade para escolher os serviços que preferir, por exemplo: API gateway, EKS, ECS, Lambda, RDS entre outros serviços nas Clouds Provideres
-  - Como um diferencial, considere a criação de um pipeline de integração contínua e entrega contínua (CI/CD) para a implantação nas plataformas de nuvem, utilizando ferramentas como GitHub Actions ou similares
+- Inicialize um repositório Git para o projeto.
+- Realize commits regulares com mensagens descritivas.
+- Envie o código para o repositório Git.
 
-## Parte 7: Desenho de Arquitetura de Sistema
-- Desenho de Arquitetura:
-Desenvolva um desenho de arquitetura do sistema que ilustre a interação entre os componentes front-end, back-end, banco de dados e infraestrutura. Este desenho deve incluir:
-  - Componentes do sistema e suas responsabilidades.
-  - Fluxos de dados entre os componentes.
-  - Infraestrutura e serviços utilizados (Docker, servidores, cloud services, etc.).
-  - Segurança e gerenciamento de acesso.
-  - Este desenho ajudará a entender melhor como as partes do sistema se integram e funcionam juntas.
+## Parte 6: Infraestrutura e Deploy na Nuvem (AWS, Azure ou GCP)
+- Utilize uma conta em um dos provedores de nuvem (AWS, Azure ou GCP) para o deploy das aplicações front-end e back-end. A escolha de serviços é livre, incluindo opções como API Gateway, EKS, ECS, Lambda, RDS, entre outros.
+- Como diferencial, considere o desenvolvimento de um pipeline de CI/CD para o deploy nas plataformas de nuvem, utilizando ferramentas como GitHub Actions ou similares.
+
+## Parte 7: Arquitetura de Sistema
+- Elabore um desenho da arquitetura do sistema, mostrando a interação entre os componentes front-end, back-end, banco de dados e infraestrutura.
+  - Detalhe os componentes do sistema e suas responsabilidades.
+  - Ilustre os fluxos de dados entre os componentes.
+  - Descreva a infraestrutura e serviços utilizados.
+  - Enfatize aspectos de segurança e gerenciamento de acesso.
+
 ## Deploy
-Criar um registro com um subdomínio para a api e outro para o frontend.
+- Configure registros com subdomínios distintos para a API e o front-end.
 
-**Servidor**
-```
-usuário: ubuntu
-ip: 144.22.211.147
-senha: deploy@@up
-```
-​
-**Cloudflare**
-```
-email: devs.deploy@gmail.com
-senha: devs@4774
-```
-  
 ## Critérios de Avaliação
-- Vue.js Skills: O aplicativo Vue.js atende aos requisitos especificados, incluindo autenticação, paginação e integração com WebSocket?
-- Back-end Skills: O back-end atende às necessidades do front-end, incluindo fornecimento de dados para a API RESTful, suporte a WebSocket e interação eficiente com o PostgreSQL?
-- Banco de Dados: O esquema do banco de dados está bem projetado e otimizado?
-- Docker e Orquestração: O Dockerfile e o Docker Compose estão configurados corretamente?
-- Git: O candidato demonstra conhecimento no uso do Git?
-- Infraestrutura e Deploy: O candidato consegue configurar corretamente o DNS e efetuar o deploy da aplicação em um servidor?
-- Usar a Parte 6 (Opção 2) como soluçao tem um peso maior na avaliacao final.
----
 
-Citamos algumas tecnologias e linguagens de programação como referência, porém, não há obrigatoriedade no uso destas. Sinta-se à vontade para escolher as ferramentas que julgar mais produtivas para o seu trabalho.
+Embora algumas tecnologias e linguagens de programação sejam mencionadas como referência, seu uso não é mandatório. Encorajamos a escolha de ferramentas que considere mais eficientes para o desenvolvimento do trabalho.
 
-Boa sorte com o teste! Se houver alguma dúvida, sinta-se à vontade para entrar em contato no dev@upbet.com.
+Desejamos sucesso no teste! Caso tenha dúvidas, por favor, entre em contato pelo e-mail dev@upbet.com.
