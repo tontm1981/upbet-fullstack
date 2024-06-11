@@ -33,4 +33,4 @@ O objetivo principal é executar com sucesso a implementação full stack dentro
   - Enfatize aspectos de segurança e gerenciamento de acesso.
 
 ## Avaliação
-Enviar para o email dev@upbet.com
+Enviar para o email tiagosilva@upbet.com
