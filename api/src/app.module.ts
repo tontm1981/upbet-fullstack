@@ -7,12 +7,11 @@ import { JogoModule } from './jogo/jogo.module'; // Importe o JogoModule
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
-      port: 5432,
       username: 'jogo',
       password: 'jogo',
       database: 'jogo',
-      entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true,
+      entities: ['dist/**/*.entity{.ts,.js}'],
+      logging: true,
     }),
     JogoModule, // Adicione o JogoModule aos imports
   ],
