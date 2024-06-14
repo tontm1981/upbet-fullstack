@@ -12,4 +12,5 @@ services:
       - .:/usr/src/app
     environment:
       - NODE_ENV=development
+    network_mode: "host"
     command: npm run start:dev
