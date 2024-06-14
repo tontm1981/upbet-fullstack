@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  banco:
+    container_name: banco
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    volumes:
+      - .:/docker-entrypoint-initdb.d
+    environment:
+      - POSTGRES_USER=jogo
+      - POSTGRES_PASSWORD=jogo
+      - POSTGRES_DB=jogo
+    network_mode: "host"
